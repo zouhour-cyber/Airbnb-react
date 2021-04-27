@@ -46,9 +46,10 @@ function Footer(){
             </div>
           </div>
            <hr/>
-           <div className="row px-5 py-2">
-               <div className="">
+           <div className="px-5 py-2 bg">
+               <div className="row">
                    <div>© 2021 Airbnb, Inc.</div>
+                   </div>
                     <div className="row">
                         
                         <div className="col-md-2 col-2"> Confidentialité </div>
@@ -61,7 +62,7 @@ function Footer(){
                         <div className="col-md-1"> EUR </div>
                        </div>
                      
-               </div>
+               
              
                </div>
        
