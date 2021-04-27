@@ -5,9 +5,106 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+/*----------style banière header---------*/
+.black{
+  
+  width:100%;
+  padding:0.7rem 0rem;
+  font-size: 16px;
+  
+  background-color:rgb(17, 17, 17);
+  color:rgb(100, 99, 99);
+}
+ .banner{
+  background-image: url(banner.jpg);
+  background-size:cover;
+  background-position-y: bottom;
+  background-position-x: right;
+  max-width:1000vw;
+  
+  height:85vh;
+  background-repeat:no-repeat ;
+  
+} 
+
+.container{
+  position:relative;
+
+}
+
+.titre{
+  position:absolute;
+  z-index:2;
+  top:250px;
+  left:80px;
+  
+
+}
+.titre h1{
+  font-weight:900;
+  font-size:45px;
+  line-height:40px;
+}
+.btn-black{
+  background-color: black;
+  color:white;
+  border-color: 1px solid black;
+}
+
+
+/*----------style soustitre---------*/
+.subtitle{
+  font-weight:bold;
+  text-justify: auto;
+  margin-left:5rem;
+  margin-top:4rem;
+}
+.activité{
+  margin-left:5rem;
+  margin-bottom:5rem;
+}
+.imgrégion{
+  object-fit: cover;
+  border-radius: 1rem;
+  width:72px;
+}
+.card-title{
+  width:200px;
+  
+}
+
+.imgcarte{
+  width:272px;
+  border-radius: 0.7rem;
+}
+
+.content{
+  background-image: url(hote.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin:3rem 3rem;
+  
+  padding:7.5rem 10rem;
+  border-radius: 0.7rem;
+  color:white;
+  
+}
+
+/*......style section expérience...........*/
+.imgexp {
+  width:20rem;
+  border-radius: 0.7rem;
+  object-fit: cover;
+  
+}
+
+.cardexp{
+  width:20rem;
 }
