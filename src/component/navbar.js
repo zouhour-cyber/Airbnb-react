@@ -4,7 +4,7 @@ import {Nav, Navbar, NavDropdown} from 'react-bootstrap'
 function Menu() {
   return (
     <div>
-<Navbar  className="px-5" collapseOnSelect expand="lg" bg="transparent" variant="light" >
+<Navbar  className="nav px-5" collapseOnSelect expand="lg" bg="transparent" variant="light" >
 <Navbar>
     <Navbar.Brand href="#home">
       <img

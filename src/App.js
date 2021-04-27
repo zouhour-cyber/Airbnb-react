@@ -4,12 +4,13 @@ import {Button} from 'react-bootstrap';
 import Sectionexpérience from'./component/sectionexpérience.js';
 import Cartespartout from './component/cartespartout.js'
 import Menu from './component/navbar.js';
+import Footer from './component/footer.js';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <div className="black text-center"> <p>Accédez aux dernières informations sur les mesures prises par Airbnb face au COVID-19</p></div>
+      <div className="black text-center"> <a href="#"> Accédez aux dernières informations sur les mesures prises par Airbnb face au COVID-19 </a></div>
       <div className="banner">
      
       <Menu/>
@@ -44,6 +45,7 @@ function App() {
   <h5 className="activité mb-5">Des activités uniques avec des experts locaux, en personne ou en ligne.
 </h5>
 <Sectionexpérience/>
+<Footer/>
     </div>
   );
 }

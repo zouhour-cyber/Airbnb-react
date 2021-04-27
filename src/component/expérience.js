@@ -3,7 +3,7 @@
 function Expérience(props){
     return(
 
-<div classNam=""> 
+
 <div className="d-flex justify-content-around"> 
 {props.exp.map(el => 
     <div className="cardexp">
@@ -12,7 +12,7 @@ function Expérience(props){
   <p className="worp-wrap">  {el.desc}</p>
 </div> 
  )}
-</div>
+
 
 
 </div>
